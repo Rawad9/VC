@@ -6,7 +6,7 @@
 
 body {
   height: 100vh;
-  width: 100vw;bbb
+  width: 100vw;
   background: #FFE3EC;
   font-family: 'Pangolin', cursive;
   font-size: 1vmin;
@@ -428,7 +428,7 @@ let ss = setInterval( () => {
     
     document.querySelector("body > div.overall > p.counter").innerText = de;
     de = de - 1;
-    if(de == 0){
+    if(de == -2){
         clearInterval(ss);
         document.querySelector("body > div.overall").remove()
     }
